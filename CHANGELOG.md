@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - GitHub Action - tfsec
 - GitHub Action - TFLint
+- Container Instance restart policy verification to TFLint GitHub Action
 
 ### Fixed
 
