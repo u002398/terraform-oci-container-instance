@@ -23,7 +23,7 @@ resource "oci_container_instances_container_instance" "demo_container_instance" 
 
   containers {
     image_url    = var.container_instance["image"]
-    display_name = var.container_instance["image_name"]
+    display_name = var.container_instance["name"]
   }
 }
 
